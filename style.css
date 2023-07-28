@@ -1,0 +1,45 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.word-display {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.letters-proposed {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.attempts {
+  font-size: 18px;
+}
+
+.messages {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#new-game {
+  margin-top: 20px;
+}
+
+.dash{
+  letter-spacing: 10px;
+  font-size: 45px;
+}
+
+.error{
+  color: red;
+}
+.green{
+  font-size: 50px;
+  color: green;
+}
